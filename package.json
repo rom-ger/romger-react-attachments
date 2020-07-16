@@ -20,7 +20,7 @@
     "classnames": "2.2.6",
     "history": "1.17.0",
     "io-ts": "1.7.1",
-    "lodash": "4.17.11",
+    "lodash": "4.17.19",
     "mobx": "4.9.4",
     "mobx-react": "5.1.2",
     "modclean": "2.1.2",
