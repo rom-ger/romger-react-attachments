@@ -15,7 +15,7 @@
     "README.md"
   ],
   "dependencies": {
-    "axios": "0.18.0",
+    "axios": "0.19.2",
     "chalk": "1.1.1",
     "classnames": "2.2.6",
     "history": "1.17.0",
