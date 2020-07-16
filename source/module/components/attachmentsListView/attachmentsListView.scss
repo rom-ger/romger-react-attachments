@@ -1,0 +1,41 @@
+$regular-blue: #0d58b3;
+
+.attachments-list-view-wrapper {
+  &__title {
+    margin-bottom: 20px;
+  }
+}
+
+.attachments-list-view {
+  margin-right: -20px;
+
+  &__attachment-item {
+    @media (max-width: 480px) {
+      width: 100%;
+    }
+
+    width: calc(50% - 40px);
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+
+  &__attachment-item-icon-wrapper {
+    width: 28px;
+    min-width: 28px;
+    height: 36px;
+    margin-right: 24px;
+  }
+
+  &__attachment-item-icon {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+  &__attachment-item-name {
+    &:hover {
+      color: $regular-blue;
+      text-decoration: underline;
+    }
+  }
+}
